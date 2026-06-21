@@ -90,6 +90,7 @@ const projetos = [
 
 <style scoped>
  .project-card {
+  
   position: relative;
   background: #0D1A0D;
   border: 1px solid #1A2E1A;
@@ -190,6 +191,7 @@ const projetos = [
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 32px;
+  max-width: 1200px;
 }
 
 h1{

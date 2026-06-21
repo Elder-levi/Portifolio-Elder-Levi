@@ -4,6 +4,7 @@
     <ul>
       <li><router-link to="/" class="meu-link" >Home</router-link></li>
       <li><router-link to="/projetos" class="meu-link">Projetos</router-link></li>
+      <li><router-link to="/servicos" class="meu-link">Serviços</router-link></li>
       <li><router-link to="/about" class="meu-link">About</router-link></li>
     </ul>
   </nav>

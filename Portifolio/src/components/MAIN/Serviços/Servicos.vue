@@ -1,6 +1,7 @@
 <template>
     <section class="Services">
     <h1>Serviços</h1>
+    <p class="subtitle">Também ofereço os seguintes serviços freelance:</p>
 
     <div class="container">
       <div
@@ -48,6 +49,7 @@
 .container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  max-width: 1200px;
   gap: 1.5rem;
 }
 
@@ -73,6 +75,14 @@ h1 {
   text-align: center;
   margin-bottom: 3rem;
   color: #39ff14;
+}
+
+.subtitle {
+  text-align: center;
+  margin-top: -2rem;
+  margin-bottom: 3rem;
+  color: #a0a0a0;
+  font-size: 0.95rem;
 }
 
 @media (max-width: 768px) {
